@@ -11,6 +11,7 @@
     <url>http://learn-programming.edurt.io</url>
 
     <modules>
+        <module>guice</module>
     </modules>
 
     <properties>
