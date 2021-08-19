@@ -18,6 +18,7 @@
 
     <modules>
         <module>binder-basic</module>
+        <module>binder-constructor</module>
     </modules>
 
     <properties>

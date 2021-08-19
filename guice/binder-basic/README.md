@@ -239,4 +239,4 @@ print Hello Guice
 
 ---
 
-[GitHub](https://github.com/EdurtIO/learning-center-code/guice/binder-basic)
+[GitHub](https://github.com/EdurtIO/learning-center-code/tree/master/guice/binder-basic)
