@@ -20,6 +20,7 @@
         <module>binder-basic</module>
         <module>binder-constructor</module>
         <module>binder-multiple</module>
+        <module>binder-provider</module>
     </modules>
 
     <properties>
