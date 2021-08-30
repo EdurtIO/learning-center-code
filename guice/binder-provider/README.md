@@ -234,5 +234,5 @@ Hello Auto Guice Provider
 
 ---
 
-[GitHub](https://github.com/EdurtIO/learning-center-code/tree/master/guice/binder-multiple)
+[GitHub](https://github.com/EdurtIO/learning-center-code/tree/master/guice/binder-provider)
 
