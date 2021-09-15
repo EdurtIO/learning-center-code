@@ -22,6 +22,7 @@
         <module>binder-multiple</module>
         <module>binder-provider</module>
         <module>binder-scope</module>
+        <module>binder-scope-other</module>
     </modules>
 
     <properties>
