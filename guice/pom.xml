@@ -23,6 +23,7 @@
         <module>binder-provider</module>
         <module>binder-scope</module>
         <module>binder-scope-other</module>
+        <module>aop-basic</module>
     </modules>
 
     <properties>
