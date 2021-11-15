@@ -24,6 +24,7 @@
         <module>binder-scope</module>
         <module>binder-scope-other</module>
         <module>aop-basic</module>
+        <module>aop-senior</module>
     </modules>
 
     <properties>
