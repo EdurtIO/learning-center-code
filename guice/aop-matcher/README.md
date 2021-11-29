@@ -135,6 +135,37 @@ public class GuiceAopMatcherMethodInterceptor
 }
 ```
 
+- 在`src/test/java`目录创建`io.edurt.lc.guice.GuiceAopJavaServiceMatcher`类文件进行定义的服务进行测试,添加以下代码
+
+```java
+package io.edurt.lc.guice;
+
+import com.google.inject.matcher.Matcher;
+
+public class GuiceAopJavaServiceMatcher
+        implements Matcher<Class<?>>
+{
+    @Override
+    public boolean matches(Class<?> aClass)
+    {
+//        return aClass == GuiceAopMatcherService.class;
+        return aClass == GuiceAopMatcherServiceImpl.class;
+    }
+
+    @Override
+    public Matcher<Class<?>> and(Matcher<? super Class<?>> matcher)
+    {
+        return null;
+    }
+
+    @Override
+    public Matcher<Class<?>> or(Matcher<? super Class<?>> matcher)
+    {
+        return null;
+    }
+}
+```
+
 - 接下来在`src/test/java`目录创建`io.edurt.lc.guice.TestGuiceAopJavaServiceMatcher`类文件进行定义的服务进行测试,添加以下代码
 
 ```java
