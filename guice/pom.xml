@@ -26,6 +26,7 @@
         <module>aop-basic</module>
         <module>aop-senior</module>
         <module>aop-matcher</module>
+        <module>integration-configuration</module>
     </modules>
 
     <properties>
